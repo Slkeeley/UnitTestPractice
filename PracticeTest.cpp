@@ -18,3 +18,10 @@ TEST(PracticeTest, smoke_test)
 {
     ASSERT_TRUE(true);
 }
+
+TEST(PracticeTest, unitTest)
+{
+		Practice practiceObj;
+		ASSERT_EQ(practiceObj.allNighter( sleep[7], 0);
+
+}

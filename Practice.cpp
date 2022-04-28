@@ -63,3 +63,19 @@ int Practice::count_starting_repeats(string word)
 
     return repetition;
 }
+
+int Practice::allNighter(int sleep[7])
+{
+	int *ptr;
+	for(int i=0; i <sizeof(&sleep); i++)
+	{
+		if(sleep[i]==0)
+		{
+			ptr = sleep +i;
+			break;
+		}
+
+	}
+return *ptr; 
+
+}
